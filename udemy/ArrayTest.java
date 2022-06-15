@@ -1,3 +1,4 @@
+package udemy;
 public class ArrayTest {
     public static void main(String[] args) {
         String name = "鈴木太郎";

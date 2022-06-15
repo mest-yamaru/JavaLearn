@@ -1,3 +1,4 @@
+package udemy;
 public class IfTest2 {
     public static void main(String[] args) {
         int myAge = 34

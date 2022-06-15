@@ -1,3 +1,4 @@
+package udemy;
 public class IfTestOr {
     public static void main(String[] args) {
         int myAge = 20;
