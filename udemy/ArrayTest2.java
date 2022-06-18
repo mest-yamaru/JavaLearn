@@ -1,23 +1,42 @@
 public class ArrayTest2 {
     public static void main(String[] args) {
-        int a = 2;
-        String[] customer; // String型の配列を宣言
-        customer = new String[3]; // 要素の情報のかたまりを代入。要素の上限も決める。
+        int a = 3;
+        // String[] customer; // String型の配列を宣言
+        // customer = new String[3]; // 要素の情報のかたまりを代入。要素の上限も決める。
+        // switch(a) {
+        //     case 1:
+        //         customer[0] = "鈴木太郎";
+        //         customer[1] = "suzuki_taro@xxxx.com";
+        //         customer[2] = "090-0000-9999";
+        //         break;
+        //     case 2:
+        //         customer[0] = "鈴木太郎";
+        //         customer[1] = "suzuki_taro@xxxx.com";
+        //         break;
+        //     case 3:
+        //         customer[0] = "鈴木太郎";
+        //         break;
+        // }
+
+        // String[] customer2 = {"鈴木太郎", "suzuki_taro@xxxx.com", "090-0000-9999"};
+        String[] customer2;
         switch(a) {
             case 1:
-                customer[0] = "鈴木太郎";
-                customer[1] = "suzuki_taro@xxxx.com";
-                customer[2] = "090-0000-9999";
+                customer2 = new String[] {"鈴木太郎", "suzuki_taro@xxxx.com", "090-0000-9999"};
+                break;
             case 2:
-                customer[0] = "鈴木太郎";
-                customer[1] = "suzuki_taro@xxxx.com";
-            case 3:
-                customer[0] = "鈴木太郎";
+                customer2 = new String[] {"鈴木太郎", "suzuki_taro@xxxx.com"};
+                break;
+            default:
+                customer2 = new String[] {"鈴木太郎"};
+                break;
         }
-
+        
         // 通常のforループのパターン
-        for (int i = 0; i < customer.length; i++) {
-            System.out.println(customer[i]);
+        for (int i = 0; i < customer2.length; i++) {
+            if (customer2[i] != null) {
+                System.out.println(customer2[i]);
+            }
         }
 
         // System.out.println();
