@@ -1,6 +1,6 @@
 public class ArrayTest2 {
     public static void main(String[] args) {
-        int a = 3;
+        int a = 1;
         // String[] customer; // String型の配列を宣言
         // customer = new String[3]; // 要素の情報のかたまりを代入。要素の上限も決める。
         // switch(a) {
@@ -33,10 +33,15 @@ public class ArrayTest2 {
         }
         
         // 通常のforループのパターン
-        for (int i = 0; i < customer2.length; i++) {
-            if (customer2[i] != null) {
-                System.out.println(customer2[i]);
-            }
+        // for (int i = 0; i < customer2.length; i++) {
+        //     if (customer2[i] != null) {
+        //         System.out.println(customer2[i]);
+        //     }
+        // }
+
+        // 拡張for文のパターン
+        for (String customer2Value : customer2 ) {
+            System.out.println(customer2Value);
         }
 
         // System.out.println();
