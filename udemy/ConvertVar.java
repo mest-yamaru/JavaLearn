@@ -1,4 +1,3 @@
-package udemy;
 public class ConvertVar {
     public static void main(String[] args) {
         int number1 = 100;
