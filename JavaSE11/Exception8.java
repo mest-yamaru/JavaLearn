@@ -5,7 +5,7 @@ public class Exception8 {
         } finally {
             System.out.println("B");
         } finally {
-            System.out.println("C");
+            System.out.println("C"); // tryとfinallyは一つずつしか記述できない
         }
     }
 }
