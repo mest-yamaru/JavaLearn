@@ -1,3 +1,3 @@
 module foo {
-    exports src.foo.com.test;
+    // exports src.foo.com.test;
 }
