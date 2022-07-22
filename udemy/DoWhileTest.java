@@ -1,4 +1,3 @@
-package udemy;
 public class DoWhileTest {
     public static void main(String[] args) {
         System.out.println("番号！");

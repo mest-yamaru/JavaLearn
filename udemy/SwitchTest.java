@@ -1,4 +1,3 @@
-package udemy;
 public class SwitchTest {
     public static void main(String[] args) {
         int myAge = 35;

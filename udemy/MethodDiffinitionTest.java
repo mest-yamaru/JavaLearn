@@ -3,7 +3,6 @@ public class MethodDiffinitionTest {
         System.out.println("mainメソッド開始");
         int intSum = 0;
         double doubleSum = 0;
-        int[] numbers = new int [3];
         int number1 = Integer.parseInt(args[0]);
         int number2 = Integer.parseInt(args[1]);
         int number3 = Integer.parseInt(args[2]);

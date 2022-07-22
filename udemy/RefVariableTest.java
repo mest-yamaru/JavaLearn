@@ -1,6 +1,6 @@
 public class RefVariableTest {
     public static void main(String[] args) {
-        
+
         // 基本データ型変数の宣言と初期化
         int num1 =1;
         int num2 =num1;

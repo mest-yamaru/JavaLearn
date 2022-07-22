@@ -1,4 +1,3 @@
-package udemy;
 public class IfTestAnd {
     public static void main(String[] args) {
         int myAge = 20;
